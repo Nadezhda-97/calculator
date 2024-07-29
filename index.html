@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +8,32 @@
   </head>
   <body>
     <div class="calc">
-      <output class="calc_result" id="result"></output>
+      <div class="calc-screen">
+        <p>0</p>
+      </div>
+      <div class="buttons">
+        <div class="btn seven">7</div>
+        <div class="btn eight">8</div>
+        <div class="btn nine">9</div>
+        <div class="btn division bg-orange">/</div>
 
-      <button class="calc_btn" type="button">1</button>
-      <button class="calc_btn" type="button">2</button>
-      <button class="calc_btn" type="button">3</button>
-      <button class="calc_btn calc_btn_operator" type="button">+</button>
+        <div class="btn four">4</div>
+        <div class="btn five">5</div>
+        <div class="btn six">6</div>
+        <div class="btn multiply bg-orange">x</div>
 
-      <button class="calc_btn" type="button">4</button>
-      <button class="calc_btn" type="button">5</button>
-      <button class="calc_btn" type="button">6</button>
-      <button class="calc_btn calc_btn_operator" type="button">-</button>
+        <div class="btn one">1</div>
+        <div class="btn two">2</div>
+        <div class="btn three">3</div>
+        <div class="btn minus bg-orange">-</div>
 
-      <button class="calc_btn" type="button">7</button>
-      <button class="calc_btn" type="button">8</button>
-      <button class="calc_btn" type="button">9</button>
-      <button class="calc_btn calc_btn_operator" type="button">x</button>
+        <div class="btn clean bg-red">C</div>
+        <div class="btn zero">0</div>
+        <div class="btn dot">.</div>
+        <div class="btn plus bg-orange">+</div>
 
-      <button class="calc_btn calc_btn_reset" type="button">C</button>
-      <button class="calc_btn" type="button">0</button>
-      <button class="calc_btn" type="button">.</button>
-      <button class="calc_btn calc_btn_operator" type="button">/</button>
-
-      <button class="calc_btn calc_btn_equal" type="button">=</button>
+        <div class="btn equal bg-blue">=</div>
+      </div>
     </div>
     <script src="./src/index.js"></script>
   </body>
